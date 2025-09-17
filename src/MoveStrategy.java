@@ -1,3 +1,0 @@
-interface MoveStrategy {
-    void move ();
-}
