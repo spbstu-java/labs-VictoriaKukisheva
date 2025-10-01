@@ -1,5 +1,6 @@
 package lab2;
 
+@SuppressWarnings("unused")
 public class ExampleClass {
     @Repeat(3)
     public void publicMethod(String name, int number) {
@@ -16,6 +17,7 @@ public class ExampleClass {
         System.out.println("Private method called");
     }
 
+    @Repeat(1)
     public void anotherPublicMethod() {
         System.out.println("This method is not annotated");
     }
